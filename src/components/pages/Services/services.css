@@ -1,0 +1,119 @@
+.topsideservc{
+  height: 22rem;
+background-image: url('https://st3.depositphotos.com/1202020/19140/i/450/depositphotos_191401288-stock-photo-our-services-web-header.jpg');
+width: 100%;
+margin: auto;
+background-size: 100% 100%;
+}
+.topsideservc h1{
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.mainserpg{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+}
+.leftservpg{
+  grid-column: 1/2;
+  width: 70%;
+  margin: 5rem auto;
+}
+.centerservpg{
+  grid-column: 2/3;
+  width: 70%;
+  margin: 5rem auto;
+}
+.rightservpg{
+  grid-column: 3/4;
+  width: 70%;
+  margin: 5rem auto;
+}
+.contserpg{
+  margin: 2rem 0;
+}
+
+
+@media (max-width: 998px){
+  .mainserpg{
+    grid-template-columns: 2fr;
+}
+.leftservpg{
+  grid-column: 1/2;
+}
+.centerservpg{
+  grid-column: 2/3;
+}
+.rightservpg{
+  grid-column: 1/2;
+} 
+}
+  @media (max-width: 778px){
+    .mainserpg{
+      grid-template-columns: 2fr;
+  }
+  .leftservpg{
+    grid-column: 1/2;
+  }
+  .centerservpg{
+    grid-column: 2/3;
+  }
+  .rightservpg{
+    grid-column: 1/2;
+  } 
+  }
+  @media (max-width: 520px){
+    .mainserpg{
+      grid-template-columns: 1fr;
+  }
+  .leftservpg{
+    grid-column: 1/2;
+  }
+  .centerservpg{
+    grid-column: 1/2;
+  }
+  .rightservpg{
+    grid-column: 1/2;
+  } 
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #0439aa;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.formdata,.contserpg{
+  font-size: 15px !important;
+}
